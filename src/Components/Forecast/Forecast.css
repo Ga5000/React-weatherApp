@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.forecast-container{
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #080b13;
+    width: 280px;
+    height: 250px;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.forecast-container h2{
+    margin-left: 20px;
+    font-weight: 100;
+    font-size: 20px;
+    color: #c7c7c7;
+    font-family: sans-serif;
+}
+
+.forecast-container .temperature-weather{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.temperature-weather h1{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Raleway',sans-serif;
+}
+
+.weather-type{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #c7c7c7;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.forecast-container hr{
+    width: 250px;
+    opacity: 0.1;
+    margin-left: 15px;
+}
+
+.details{
+    font-size: 12px;
+    opacity: 0.8;
+    font-weight: 100;
+    margin-left: 20px;
+    color: #c7c7c7;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.details img{
+    width: 25px;
+    background: transparent;
+}
+
+.details p{
+    margin-left: 10px;
+}
+
+.details .day{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.details .location{
+    display: flex;
+    align-items: center;
+}
+

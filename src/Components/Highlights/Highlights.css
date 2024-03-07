@@ -1,0 +1,33 @@
+.highlights-container{
+    width: 900px;
+    height: 400px;
+    background: #080b13;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+}
+
+.today{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.components-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .powered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #c7c7c7;
+    opacity: 0.8;
+    text-indent: 10px;
+    font-family: 'Raleway',sans-serif;
+  }
